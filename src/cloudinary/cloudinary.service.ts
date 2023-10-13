@@ -8,9 +8,9 @@ export class CloudinaryService {
   constructor(config: ConfigService) {
     cloudinary.v2.config({
       secure: true,
-      cloud_name: config.getOrThrow('CLOUDINARY_NAME'),
-      api_key: config.getOrThrow('CLOUDINARY_API_KEY'),
-      api_secret: config.getOrThrow('CLOUDINARY_SECRET'),
+      cloud_name: 'dlsutojvh',
+      api_key: '551264487663434',
+      api_secret: '9mmNvYRRjIC3-g6kvBXvCsjxGk8',
     });
   }
 
